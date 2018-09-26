@@ -54,12 +54,14 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="GameEngine.cs" />
+    <Compile Include="lich.cs" />
     <Compile Include="Map.cs" />
     <Compile Include="MeleeUnit.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RangedUnit.cs" />
     <Compile Include="Resource methods.cs" />
+    <Compile Include="Rouge.cs" />
     <Compile Include="Unit.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

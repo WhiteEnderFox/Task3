@@ -31,7 +31,7 @@ namespace GADE_POE
         public Map(int maxX, int maxY, int numUnits, int numbuilds)
         {
             units = new Unit[numUnits];
-            for(int i = 0; i < numUnits/2; i++)
+            for(int i = 0; i < numUnits/3; i++) // melee
             {
 
 
@@ -49,7 +49,7 @@ namespace GADE_POE
                
             }
 
-            for (int j = numUnits/2; j < numUnits; j++)
+            for (int j = numUnits/3; j < 2*numUnits/3; j++) // ranged
             {
                 RangedUnit r = new RangedUnit(R.Next(0, maxX),
                                               R.Next(0, maxY),
@@ -63,6 +63,33 @@ namespace GADE_POE
                 Units[j] = r;
             }
 
+            for (int k = 2*numUnits/3; k < numUnits; k++) // rouge
+            {
+                Rouge v = new Rouge(R.Next(0, maxX),
+                                           R.Next(0, maxY),
+                                           50,
+                                           15,
+                                           2,
+                                           1,
+                                           1,
+                                           "V",
+                                           "Fragmented");
+                Units[k] = v;
+            }
+
+            for (int l = numUnits-2; l < numUnits; l++) // Lich
+            {
+                lich L = new lich         (R.Next(0, maxX),
+                                           R.Next(0, maxY),
+                                           35,
+                                           30,
+                                           1,
+                                           2,
+                                           l%2,
+                                           "A",
+                                           "o'Mancer");
+                Units[l] = L;
+            }
         }
     }
 }
