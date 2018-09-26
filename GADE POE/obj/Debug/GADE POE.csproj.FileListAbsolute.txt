@@ -1,0 +1,20 @@
+C:\Users\Mitchell Dreyer\source\repos\GADE POE\GADE POE\bin\Debug\GADE POE.exe.config
+C:\Users\Mitchell Dreyer\source\repos\GADE POE\GADE POE\bin\Debug\GADE POE.exe
+C:\Users\Mitchell Dreyer\source\repos\GADE POE\GADE POE\bin\Debug\GADE POE.pdb
+C:\Users\Mitchell Dreyer\source\repos\GADE POE\GADE POE\obj\Debug\GADE POE.csprojResolveAssemblyReference.cache
+C:\Users\Mitchell Dreyer\source\repos\GADE POE\GADE POE\obj\Debug\GADE_POE.Form1.resources
+C:\Users\Mitchell Dreyer\source\repos\GADE POE\GADE POE\obj\Debug\GADE_POE.Properties.Resources.resources
+C:\Users\Mitchell Dreyer\source\repos\GADE POE\GADE POE\obj\Debug\GADE POE.csproj.GenerateResource.Cache
+C:\Users\Mitchell Dreyer\source\repos\GADE POE\GADE POE\obj\Debug\GADE POE.csproj.CoreCompileInputs.cache
+C:\Users\Mitchell Dreyer\source\repos\GADE POE\GADE POE\obj\Debug\GADE POE.exe
+C:\Users\Mitchell Dreyer\source\repos\GADE POE\GADE POE\obj\Debug\GADE POE.pdb
+C:\Users\Mitchell Dreyer\source\repos\GADE POE - Copy\GADE POE\obj\Debug\GADE POE.csprojResolveAssemblyReference.cache
+C:\Users\Mitchell Dreyer\source\repos\GADE POE - Copy\GADE POE\obj\Debug\GADE_POE.Form1.resources
+C:\Users\Mitchell Dreyer\source\repos\GADE POE - Copy\GADE POE\obj\Debug\GADE_POE.Properties.Resources.resources
+C:\Users\Mitchell Dreyer\source\repos\GADE POE - Copy\GADE POE\obj\Debug\GADE POE.csproj.GenerateResource.Cache
+C:\Users\Mitchell Dreyer\source\repos\GADE POE - Copy\GADE POE\obj\Debug\GADE POE.csproj.CoreCompileInputs.cache
+C:\Users\Mitchell Dreyer\source\repos\GADE POE - Copy\GADE POE\obj\Debug\GADE POE.exe
+C:\Users\Mitchell Dreyer\source\repos\GADE POE - Copy\GADE POE\obj\Debug\GADE POE.pdb
+C:\Users\Mitchell Dreyer\source\repos\GADE POE - Copy\GADE POE\bin\Debug\GADE POE.exe.config
+C:\Users\Mitchell Dreyer\source\repos\GADE POE - Copy\GADE POE\bin\Debug\GADE POE.exe
+C:\Users\Mitchell Dreyer\source\repos\GADE POE - Copy\GADE POE\bin\Debug\GADE POE.pdb
