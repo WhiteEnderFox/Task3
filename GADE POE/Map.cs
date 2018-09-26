@@ -65,7 +65,7 @@ namespace GADE_POE
 
             for (int k = 2*numUnits/3; k < numUnits; k++) // rouge
             {
-                Rouge v = new Rouge(R.Next(0, maxX),
+                Rogue v = new Rogue(R.Next(0, maxX),
                                            R.Next(0, maxY),
                                            50,
                                            15,

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace GADE_POE
 {
     [Serializable]
-    class Rouge : Unit
+    class Rogue : Unit
     {
         public int XPos
         {
@@ -65,7 +65,7 @@ namespace GADE_POE
         }
 
 
-        public Rouge(int x, int y, int health, int attack, int speed, int range, int faction, string symbol, string name)
+        public Rogue(int x, int y, int health, int attack, int speed, int range, int faction, string symbol, string name)
         {
             XPos = x;
             YPos = y;
@@ -106,9 +106,9 @@ namespace GADE_POE
         }
         public override void Combat(Unit u)
         {
-            if (u.GetType() == typeof(Rouge))
+            if (u.GetType() == typeof(Rogue))
             {
-                Health -= ((Rouge)u).Attack;
+                Health -= ((Rogue)u).Attack;
             }
     
         }
@@ -129,9 +129,9 @@ namespace GADE_POE
             int closestDistance = 50;
             foreach (Unit u in units)
             {
-                if (u.GetType() == typeof(Rouge))
+                if (u.GetType() == typeof(Rogue))
                 {
-                    if (((Rouge)u).IsDead() == false)
+                    if (((Rogue)u).IsDead() == false)
                         if (DistanceTo(u) < closestDistance)
                         {
                             closest = u;
@@ -144,9 +144,9 @@ namespace GADE_POE
         }
         public override bool inRange(Unit u)
         {
-            if (u.GetType() == typeof(Rouge))
+            if (u.GetType() == typeof(Rogue))
             {
-                Rouge m = (Rouge)u;
+                Rogue m = (Rogue)u;
 
                 if (DistanceTo(u) <= Range)
                 {
@@ -176,9 +176,9 @@ namespace GADE_POE
 
         private int DistanceTo(Unit u)
         {
-            if (u.GetType() == typeof(Rouge))
+            if (u.GetType() == typeof(Rogue))
             {
-                Rouge m = (Rouge)u;
+                Rogue m = (Rogue)u;
                 int d = Math.Abs(XPos - m.XPos) + Math.Abs(YPos - m.YPos);
                 return d;
 
@@ -191,9 +191,9 @@ namespace GADE_POE
 
         public Direction DirectionTo(Unit u)
         {
-            if (u.GetType() == typeof(Rouge))
+            if (u.GetType() == typeof(Rogue))
             {
-                Rouge m = (Rouge)u;
+                Rogue m = (Rogue)u;
                 if (m.XPos < XPos)
                 {
                     return Direction.North;

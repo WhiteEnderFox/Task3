@@ -122,12 +122,12 @@ namespace GADE_POE
                         groupBox1.Controls.Add(b);
                     }
                 }
-                if (u.GetType() == typeof(Rouge))// display for rouge unit
+                if (u.GetType() == typeof(Rogue))// display for rouge unit
                 {
                     int start_x, start_y;
                     start_x = groupBox1.Location.X;
                     start_y = groupBox1.Location.Y;
-                    Rouge v = (Rouge)u;
+                    Rogue v = (Rogue)u;
                     Button b = new Button();
                     b.Size = new Size(SIZE, SIZE);
                     b.Location = new Point(start_x + (v.XPos * SIZE), start_y + (v.YPos * SIZE));
@@ -312,10 +312,10 @@ namespace GADE_POE
                 }
                 if (u.IsDead() == false)
                 {
-                    if (u.GetType() == typeof(Rouge))
+                    if (u.GetType() == typeof(Rogue))
                     {
 
-                        Rouge v = (Rouge)u;
+                        Rogue v = (Rogue)u;
                         
                         if (v.Health < 7)// running away
                         {
@@ -477,9 +477,9 @@ namespace GADE_POE
                         }
                     }
 
-                else if (u.GetType() == typeof(Rouge))
+                else if (u.GetType() == typeof(Rogue))
                 {
-                    Rouge v = (Rouge)u;
+                    Rogue v = (Rogue)u;
                     if (v.XPos == x && v.YPos == y)
                     {
                         txtInfo.Text = "Unit stats: " + v.ToString();
